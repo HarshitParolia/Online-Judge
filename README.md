@@ -1,7 +1,7 @@
-Project Overview
+PROJECT OVERVIEW:
 This project is an Online Judge platform where users can submit code in 6 different languages and receive real-time feedback on their submissions. It supports features such as handling time limit exceeded errors, wrong answers, compilation issues, and segmentation faults.
 
-Features
+FEATURES:
 User Authentication: Supports login via email/password, Google, Microsoft, GitHub, and Twitter IDs.
 Problem Set: Provides a collection of problems with titles, statements, and input/output formats.
 Code Execution: Executes user-submitted code in Python, Ruby, PHP, C/C++, or Java.
