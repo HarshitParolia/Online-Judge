@@ -1,0 +1,11 @@
+services:
+  compiler:
+    image: suryansh03/oj-con:latest
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "4500:4500"
+    environment:
+      - MONGO_URL=${MONGO_URL}
+      - SUBMISSION_PORT=${SUBMISSION_PORT}
